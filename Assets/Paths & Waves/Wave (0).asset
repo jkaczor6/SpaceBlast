@@ -12,5 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce1645e81a0b9c04ca4885a8b4003b06, type: 3}
   m_Name: Wave (0)
   m_EditorClassIdentifier: Assembly-CSharp::WaveConfigSO
-  pathPrefab: {fileID: 0}
+  enemyPrefabs:
+  - {fileID: 3381784597782127837, guid: 4be4f38ec4f8d8d4eadf912cea96805c, type: 3}
+  - {fileID: 3381784597782127837, guid: 4be4f38ec4f8d8d4eadf912cea96805c, type: 3}
+  - {fileID: 3381784597782127837, guid: 4be4f38ec4f8d8d4eadf912cea96805c, type: 3}
+  pathPrefab: {fileID: 5177931618131097902, guid: 07b7620921badca458059d30eb4fe8df, type: 3}
   enemyMoveSpeed: 5
+  timeBetweenSpawns: 1
+  spawnRandomFactor: 0.2
+  minimumSpawnDelay: 0.2
