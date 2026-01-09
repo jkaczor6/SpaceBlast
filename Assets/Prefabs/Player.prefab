@@ -222,6 +222,7 @@ MonoBehaviour:
   health: 100
   hitParticles: {fileID: 9102611311731222115, guid: ab49016bce7dd004ab3ab7d0abf20b1e, type: 3}
   applyCameraShake: 1
+  isEnemy: 0
 --- !u!114 &2760534277055700544
 MonoBehaviour:
   m_ObjectHideFlags: 0
